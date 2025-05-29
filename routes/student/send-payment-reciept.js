@@ -7,7 +7,7 @@ const db = require('../../config/db');
 
 const router = express.Router();
 
-const PaymentReceiptTemplate = require('./paymentReceiptTemplate');
+const PaymentReceiptTemplate = require('./PaymentReceiptTemplate');
 
 const uploadDir = path.join(process.cwd(), 'public', 'documents');
 if (!fs.existsSync(uploadDir)) {

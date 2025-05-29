@@ -6,7 +6,7 @@ const path = require('path');
 const puppeteer = require('puppeteer');
 const db = require('../../config/db');
 
-const PaymentReceiptTemplate = require('./paymentReceiptTemplate');
+const PaymentReceiptTemplate = require('./PaymentReceiptTemplate');
 const router = express.Router();
 
 const uploadDir = path.join(process.cwd(), 'public', 'documents', 'payments');
