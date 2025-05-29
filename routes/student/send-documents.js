@@ -7,12 +7,12 @@ const db = require('../../config/db');
 const router = express.Router();
 
 
-const AdmissionLetterTemplate = require('./admissionLetterTemplate');
+const AdmissionLetterTemplate = require('./AdmissionLetterTemplate');
 const UgcNotificationTemplate = require('./UgcNotificationTemplate');
-const AffiliationLetterTemplate = require('./affiliationLetterTemplate');
-const BonafideLetterTemplate = require('./bonafideLetterTemplate');
-const VisaTemplate = require('./visaTemplate');
-const PaymentReceiptTemplate = require('./paymentReceiptTemplate');
+const AffiliationLetterTemplate = require('./AffiliationLetterTemplate');
+const BonafideLetterTemplate = require('./BonafideLetterTemplate');
+const VisaTemplate = require('./VisaTemplate');
+const PaymentReceiptTemplate = require('./PaymentReceiptTemplate');
 
 
 const uploadDir = path.join(process.cwd(), 'public', 'documents');
